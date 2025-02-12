@@ -12,6 +12,6 @@ int main(){
     }else{
         printf("Invalid input");
     }
-    retunr 0;
+    return 0;
 
 }
