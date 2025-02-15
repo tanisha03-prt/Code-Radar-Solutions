@@ -9,6 +9,6 @@ int main(){
     int mul=a*b;
     int sub=a-b;
     int div=a/b;
-    printf("%d %d %d %d",sum,mul,sub,div);
+    printf("%d",sum);
     
 }
