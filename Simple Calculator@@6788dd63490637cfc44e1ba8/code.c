@@ -5,12 +5,11 @@ int main() {
     char operator;
 
     // Display menu
-    printf("Simple Calculator\n");
-    printf("Enter an operation (+, -, *, /): ");
+    
     scanf(" %c", &operator);  // Space before %c to avoid newline issues
 
     // Input two numbers
-    printf("Enter two numbers: ");
+    
     scanf("%lf %lf", &num1, &num2);
 
     // Perform calculation based on operator
