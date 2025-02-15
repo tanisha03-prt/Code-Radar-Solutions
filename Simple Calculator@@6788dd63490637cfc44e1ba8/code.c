@@ -32,8 +32,7 @@ int main() {
             else
                 printf("Error! Division by zero is not allowed.\n");
             break;
-        default:
-            printf("Invalid operator! Please use +, -, *, or /.\n");
+        
     }
 
     return 0;
