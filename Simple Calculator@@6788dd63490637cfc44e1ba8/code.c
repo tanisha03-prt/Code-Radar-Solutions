@@ -6,6 +6,9 @@ int main(){
     scanf("%d %d",&a,&b);
     scanf("%c",&c);
     int sum=a+b;
-    printf("%d",sum);
+    int mul=a*b;
+    int sub=a-b;
+    int div=a/b;
+    printf("%d %d %d %d\n",sum,mul,sub,div);
     
 }
