@@ -7,7 +7,7 @@ int main(){
     switch(operator){
         case'+': printf("%d %c",a+b,operator);
         case'-': printf("%d %c",a-b,operator);
-        case'/': printf("%d %c",a/b,operator);
+        case'/': printf("%d %c",a/b,/);
         case'*': printf("%d %c",a*b,operator);
     }
 }
