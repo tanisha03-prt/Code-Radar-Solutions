@@ -4,8 +4,10 @@ int main(){
     scanf("%d %d",&a,&b);
     char operator;
     scanf("%c",&operator);
-    case'+': printf("%d %c",a+b,operator);
-    case'-': printf("%d %c",a-b,operator);
-    case'/': printf("%d %c",a/b,operator);
-    case'*': printf("%d %c",a*b,operator);
+    switch(operator){
+        case'+': printf("%d %c",a+b,operator);
+        case'-': printf("%d %c",a-b,operator);
+        case'/': printf("%d %c",a/b,operator);
+        case'*': printf("%d %c",a*b,operator);
+    }
 }
