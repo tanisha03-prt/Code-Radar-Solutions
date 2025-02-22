@@ -5,9 +5,9 @@ int main(){
     char operator;
     scanf("%c",&operator);
     switch(operator){
-        case'+': printf("%d %c",a+b,operator);
-        case'-': printf("%d %c",a-b,operator);
-        case'/': printf("%d %c",a/b,"/");
-        case'*': printf("%d %c",a*b,operator);
+        case'+': printf("%d",a+b);
+        case'-': printf("%d",a-b);
+        case'/': printf("%d",a/b);
+        case'*': printf("%d",a*b);
     }
 }
